@@ -5,11 +5,20 @@
   vars_files:
     - default.config.yml
 
+  vars_prompt:
+    - name: "git_global_email"
+      prompt: "Git email"
+      private: no
+
   pre_tasks:
     - include_vars: "{{ item }}"
       with_fileglob:
         - ../config.yml
       tags: ['always']
+    - name: Remove dotfiles folder
+      file:
+        path: '{{ dotfiles_repo_local_destination }}'
+        state: absent
 
   roles:
     - role: geerlingguy.dotfiles
@@ -21,6 +30,12 @@
 
     - include: tasks/sudoers.yml
       when: configure_sudoers
+
+    - name: Update git global config email
+      git_config:
+        name: user.email
+        scope: global
+        value: '{{ git_global_email }}'
 
     - name: Run configured post-provision ansible task files.
       include: "{{ outer_item }}"
