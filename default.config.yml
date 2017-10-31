@@ -1,0 +1,17 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: yes
+configure_sudoers: yes
+
+dotfiles_repo: https://github.com/travis-south/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/playground/dotfiles
+dotfiles_files:
+  - .bash_profile
+  - .gitignore
+  - .inputrc
+  - .vimrc
+  - .gitconfig
+
+post_provision_tasks: []
