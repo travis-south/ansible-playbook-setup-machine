@@ -19,6 +19,10 @@
       file:
         path: '{{ dotfiles_repo_local_destination }}'
         state: absent
+    - name: Create playground folder
+      file:
+        path: '{{ playground_path }}'
+        state: directory
 
   roles:
     - role: geerlingguy.dotfiles
