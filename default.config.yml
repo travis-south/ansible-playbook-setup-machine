@@ -8,7 +8,7 @@ playground_path: ~/playground
 
 dotfiles_repo: https://github.com/travis-south/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: '{{ playground_path }}/dotfiles'
+dotfiles_repo_local_destination: "{{ playground_path }}/dotfiles"
 dotfiles_files:
   - .bash_profile
   - .gitignore
