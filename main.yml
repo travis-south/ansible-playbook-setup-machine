@@ -10,6 +10,10 @@
       prompt: "Git email"
       private: no
       default: "irvin@capagcuan.org"
+    - name: "username"
+      prompt: "Username"
+      private: no
+      default: "irvin"
 
   pre_tasks:
     - include_vars: "{{ item }}"
@@ -41,6 +45,9 @@
         name: user.email
         scope: global
         value: "{{ git_global_email }}"
+
+    - include: tasks/extra-packages.yml
+      tags: ['extra-packages']
 
     - name: Run configured post-provision ansible task files.
       include: "{{ outer_item }}"

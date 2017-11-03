@@ -17,3 +17,9 @@ dotfiles_files:
   - .gitconfig
 
 post_provision_tasks: []
+
+username: irvin
+
+extra_packages:
+  - htop
+  - git
