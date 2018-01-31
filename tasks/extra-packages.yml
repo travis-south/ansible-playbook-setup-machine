@@ -5,3 +5,4 @@
     state: latest
   with_items: "{{ extra_packages }}"
   become: yes
+  ignore_errors: True
