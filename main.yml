@@ -59,3 +59,22 @@
       copy:
         src: ~/playground/dotfiles/custom.zsh
         dest: ~/.oh-my-zsh/custom/
+
+    - name: Install Powerline fonts
+      pip:
+        name: powerline-status
+        extra_args: --user
+        executable: pip3
+
+    - name: Clone Powerline fonts
+      git:
+        repo: "{{ powerline_fonts_repo }}"
+        dest: "{{ powerline_fonts_repo_local_destination }}"
+        accept_hostkey: "{{ dotfiles_repo_accept_hostkey }}"
+      become: false
+
+    - name: Download Solarized terminal theme
+      unarchive:
+        src: http://ethanschoonover.com/solarized/files/solarized.zip
+        dest: "{{ playground_path }}"
+        remote_src: yes

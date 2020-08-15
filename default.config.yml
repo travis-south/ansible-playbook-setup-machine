@@ -10,11 +10,14 @@ dotfiles_repo: https://github.com/travis-south/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: "{{ playground_path }}/dotfiles"
 dotfiles_files:
-  # - .zshrc
+  - .zshrc
   - .gitignore
   - .inputrc
   - .vimrc
   - .gitconfig
+
+powerline_fonts_repo: https://github.com/powerline/fonts.git
+powerline_fonts_repo_local_destination: "{{ playground_path }}/powerline-fonts"
 
 post_provision_tasks: []
 
@@ -26,6 +29,7 @@ extra_packages:
   - docker
   - docker-compose
   - yarn
+  - python
   
 extra_cask_packages:
   - docker

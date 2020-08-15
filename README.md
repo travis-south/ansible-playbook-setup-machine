@@ -11,3 +11,4 @@ Ansible playbook for setting up my machine. Inspired by [Geerlinguy's](https://g
 1. Grab a coffee.
 1. Enjoy!
 1. Install docker-workspace.
+1. Install `Meslo LG S DZ Regular for Powerline 14pt`
