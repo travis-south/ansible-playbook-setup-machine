@@ -23,6 +23,25 @@ extra_packages:
   - git
   - zsh-history-substring-search
   - kubectl
-
+  - docker
+  - docker-compose
+  - yarn
+  
 extra_cask_packages:
+  - docker
   - visual-studio-code
+  - slack
+  - skype
+  - viber
+  - private-internet-access
+  - discord
+  - lulu
+  - do-not-disturb
+  - knockknock
+  - taskexplorer
+  - reikey
+  - netiquette
+  - blockblock
+  - ransomwhere
+  - oversight
+  - lockdown
