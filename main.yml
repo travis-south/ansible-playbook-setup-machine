@@ -54,3 +54,8 @@
       loop_control:
         loop_var: outer_item
       with_fileglob: "{{ post_provision_tasks|default(omit) }}"
+
+    - name: Copy custom zsh to ohmyzsh
+      copy:
+        src: ~/playground/dotfiles/custom.zsh
+        dest: ~/.oh-my-zsh/custom/

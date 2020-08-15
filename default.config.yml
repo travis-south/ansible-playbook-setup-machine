@@ -10,7 +10,7 @@ dotfiles_repo: https://github.com/travis-south/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: "{{ playground_path }}/dotfiles"
 dotfiles_files:
-  - .zshrc
+  # - .zshrc
   - .gitignore
   - .inputrc
   - .vimrc
