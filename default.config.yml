@@ -10,7 +10,7 @@ dotfiles_repo: https://github.com/travis-south/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: "{{ playground_path }}/dotfiles"
 dotfiles_files:
-  - .bash_profile
+  - .zshrc
   - .gitignore
   - .inputrc
   - .vimrc
@@ -21,3 +21,8 @@ post_provision_tasks: []
 extra_packages:
   - htop
   - git
+  - zsh-history-substring-search
+  - kubectl
+
+extra_cask_packages:
+  - visual-studio-code

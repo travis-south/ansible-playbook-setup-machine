@@ -4,5 +4,12 @@
     name: "{{ item }}"
     state: latest
   with_items: "{{ extra_packages }}"
-  become: yes
+  become: no
   ignore_errors: True
+
+- name: Install cask packages
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+  with_items: "{{ extra_cask_packages }}"
+  become: no
