@@ -50,3 +50,5 @@ extra_cask_packages:
   - oversight
   - lockdown
   - zoomus
+  - google-drive-file-stream
+
