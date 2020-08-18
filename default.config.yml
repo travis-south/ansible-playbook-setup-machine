@@ -51,4 +51,4 @@ extra_cask_packages:
   - lockdown
   - zoomus
   - google-drive-file-stream
-
+  - pgadmin4
