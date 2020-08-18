@@ -52,3 +52,5 @@ extra_cask_packages:
   - zoomus
   - google-drive-file-stream
   - pgadmin4
+
+force_install: yes
