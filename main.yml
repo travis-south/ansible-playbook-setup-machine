@@ -30,6 +30,7 @@
         state: directory
 
   roles:
+    - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.dotfiles
       when: configure_dotfiles
       tags: ['dotfiles']
