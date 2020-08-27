@@ -54,5 +54,6 @@ extra_cask_packages:
   - google-drive-file-stream
   - pgadmin4
   - vlc
+  - postman
 
 force_install: no
