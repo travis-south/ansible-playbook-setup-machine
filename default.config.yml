@@ -32,6 +32,7 @@ extra_packages:
   - python
   - qcachegrind
   - hashicorp/tap/boundary
+  - awscli
   
 extra_cask_packages:
   - docker
