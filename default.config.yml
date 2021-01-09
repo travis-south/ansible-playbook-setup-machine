@@ -58,5 +58,6 @@ extra_cask_packages:
   - vlc
   - postman
   - spotify
+  - google-chrome
 
 force_install: no
