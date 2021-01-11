@@ -2,7 +2,6 @@
 Ansible playbook for setting up my machine. Inspired by [Geerlinguy's](https://github.com/geerlingguy/mac-dev-playbook)
 
 ## Usage
-1. Install PIA and/or Nord.
 1. Setup ssh-key on github.
 1. Clone this repo.
 1. Run `./run.sh`.

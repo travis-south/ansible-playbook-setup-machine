@@ -60,5 +60,7 @@ extra_cask_packages:
   - spotify
   - google-chrome
   - microsoft-teams
+  - nordvpn
+  - private-internet-access
 
 force_install: no
