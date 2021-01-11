@@ -59,5 +59,6 @@ extra_cask_packages:
   - postman
   - spotify
   - google-chrome
+  - microsoft-teams
 
 force_install: no
