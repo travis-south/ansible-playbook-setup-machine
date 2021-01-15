@@ -33,6 +33,7 @@ extra_packages:
   - qcachegrind
   - hashicorp/tap/boundary
   - awscli
+  - composer
   
 extra_cask_packages:
   - docker
