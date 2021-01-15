@@ -62,5 +62,9 @@ extra_cask_packages:
   - microsoft-teams
   - nordvpn
   - private-internet-access
+  - onedrive
+  - google-drive-file-stream
+  - messenger-native
+  - telegram
 
 force_install: no
