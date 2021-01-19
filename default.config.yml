@@ -34,7 +34,7 @@ extra_packages:
   - hashicorp/tap/boundary
   - awscli
   - composer
-  - terraform@0.11
+  - terraform@0.12
   
 extra_cask_packages:
   - docker
