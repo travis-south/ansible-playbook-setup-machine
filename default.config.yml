@@ -68,5 +68,6 @@ extra_cask_packages:
   - google-drive-file-stream
   - messenger-native
   - telegram
+  - signal
 
 force_install: no
