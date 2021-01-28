@@ -19,6 +19,9 @@ dotfiles_files:
 powerline_fonts_repo: https://github.com/powerline/fonts.git
 powerline_fonts_repo_local_destination: "{{ playground_path }}/powerline-fonts"
 
+solarized_repo: https://github.com/lysyi3m/macos-terminal-themes.git
+solarized_repo_local_destination: "{{ playground_path }}/macos-terminal-themes"
+
 post_provision_tasks: []
 
 extra_packages:

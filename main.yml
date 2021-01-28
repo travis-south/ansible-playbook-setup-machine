@@ -75,7 +75,8 @@
       become: false
 
     - name: Download Solarized terminal theme
-      unarchive:
-        src: http://ethanschoonover.com/solarized/files/solarized.zip
-        dest: "{{ playground_path }}"
-        remote_src: yes
+      git:
+        repo: "{{ solarized_repo }}"
+        dest: "{{ solarized_repo_local_destination }}"
+        accept_hostkey: "{{ dotfiles_repo_accept_hostkey }}"
+      become: false
