@@ -22,6 +22,10 @@ powerline_fonts_repo_local_destination: "{{ playground_path }}/powerline-fonts"
 solarized_repo: https://github.com/lysyi3m/macos-terminal-themes.git
 solarized_repo_local_destination: "{{ playground_path }}/macos-terminal-themes"
 
+custom_scripts_repo: git@gitlab.com:travis-south/custom-scripts.git
+custom_scripts_repo_local_destination: "{{ playground_path }}/custom-scripts"
+custom_scripts_repo_key: ~/.ssh/id_rsa
+
 post_provision_tasks: []
 
 extra_packages:
@@ -29,7 +33,6 @@ extra_packages:
   - git
   - zsh-history-substring-search
   - kubectl
-  - docker
   - docker-compose
   - yarn
   - python

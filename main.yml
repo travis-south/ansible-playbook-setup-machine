@@ -80,3 +80,11 @@
         dest: "{{ solarized_repo_local_destination }}"
         accept_hostkey: "{{ dotfiles_repo_accept_hostkey }}"
       become: false
+    
+    - name: Clone custom scripts
+      git:
+        repo: "{{ custom_scripts_repo }}"
+        dest: "{{ custom_scripts_repo_local_destination }}"
+        accept_hostkey: "{{ dotfiles_repo_accept_hostkey }}"
+        key_file: "{{ custom_scripts_repo_key }}"
+      become: false
