@@ -4,6 +4,9 @@ downloads: ~/.ansible-downloads/
 configure_dotfiles: yes
 configure_sudoers: yes
 
+git_global_email: irvin@capagcuan.org
+username: jcapagcuan
+
 playground_path: ~/playground
 
 dotfiles_repo: https://github.com/travis-south/dotfiles.git
