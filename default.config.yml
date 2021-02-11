@@ -44,6 +44,7 @@ extra_packages:
   - awscli
   - composer
   - terraform
+  - serverless
   
 extra_cask_packages:
   - docker
