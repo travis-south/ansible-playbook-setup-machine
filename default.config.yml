@@ -80,5 +80,6 @@ extra_cask_packages:
   - telegram
   - signal
   - adobe-acrobat-reader
+  - send-to-kindle
 
 force_install: no
