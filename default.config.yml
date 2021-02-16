@@ -76,7 +76,7 @@ extra_cask_packages:
   - private-internet-access
   - onedrive
   - google-drive-file-stream
-  - messenger-native
+  - messenger
   - telegram
   - signal
   - adobe-acrobat-reader
