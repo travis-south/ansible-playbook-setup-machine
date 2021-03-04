@@ -45,6 +45,10 @@ extra_packages:
   - composer
   - terraform
   - serverless
+  - jq
+  - mpv
+  - youtube-dl
+  - fzf
   
 extra_cask_packages:
   - docker
