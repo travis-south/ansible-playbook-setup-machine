@@ -88,5 +88,6 @@ extra_cask_packages:
   - send-to-kindle
   - lando
   - epoccam
+  - obs
 
 force_install: no
