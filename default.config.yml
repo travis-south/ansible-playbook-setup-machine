@@ -86,5 +86,6 @@ extra_cask_packages:
   - adobe-acrobat-reader
   - send-to-kindle
   - lando
+  - epoccam
 
 force_install: no
