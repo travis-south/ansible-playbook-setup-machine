@@ -89,5 +89,6 @@ extra_cask_packages:
   - lando
   - epoccam
   - obs
+  - amethyst
 
 force_install: no
