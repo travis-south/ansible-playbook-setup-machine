@@ -51,6 +51,7 @@ extra_packages:
   - fzf
   - ssh-copy-id
   - php
+  - wget
   
 extra_cask_packages:
   - docker
