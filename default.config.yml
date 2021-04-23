@@ -92,5 +92,6 @@ extra_cask_packages:
   - epoccam
   - obs
   - amethyst
+  - openvpn-connect
 
 force_install: no
