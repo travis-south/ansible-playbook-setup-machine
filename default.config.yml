@@ -52,6 +52,7 @@ extra_packages:
   - ssh-copy-id
   - php
   - wget
+  - helm
   
 extra_cask_packages:
   - docker
