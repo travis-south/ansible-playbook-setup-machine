@@ -53,6 +53,7 @@ extra_packages:
   - php
   - wget
   - helm
+  - istioctl
   
 extra_cask_packages:
   - docker
