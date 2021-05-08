@@ -37,11 +37,12 @@ extra_packages:
   - zsh-history-substring-search
   - kubectl
   - docker-compose
-  - yarn
   - python
   - qcachegrind
   - hashicorp/tap/boundary
   - awscli
+  - nvm
+  - tophat/bar/yvm
   - composer
   - terraform
   - serverless
@@ -50,7 +51,7 @@ extra_packages:
   - youtube-dl
   - fzf
   - ssh-copy-id
-  - php
+  - phpbrew
   - wget
   - helm
   - istioctl
