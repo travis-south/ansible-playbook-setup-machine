@@ -41,7 +41,6 @@ extra_packages:
   - qcachegrind
   - hashicorp/tap/boundary
   - awscli
-  - nvm
   - tophat/bar/yvm
   - composer
   - terraform
@@ -56,6 +55,7 @@ extra_packages:
   - helm
   - istioctl
   - watch
+  - bzip2
   
 extra_cask_packages:
   - docker
