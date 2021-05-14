@@ -29,7 +29,8 @@ custom_scripts_repo: git@gitlab.com:travis-south/custom-scripts.git
 custom_scripts_repo_local_destination: "{{ playground_path }}/custom-scripts"
 custom_scripts_repo_key: ~/.ssh/id_rsa
 
-post_provision_tasks: []
+post_provision_tasks:
+  - tasks/other-packages.yml
 
 extra_packages:
   - htop
@@ -57,6 +58,7 @@ extra_packages:
   - watch
   - bzip2
   - k9s
+  - mercurial
   
 extra_cask_packages:
   - docker

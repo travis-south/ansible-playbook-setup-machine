@@ -1,0 +1,7 @@
+---
+- name: Install GVM
+  shell: >
+    curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | zsh
+  args:
+    creates: "{{ ansible_env.HOME }}/.gvm/bin/gvm"
+  become: no
