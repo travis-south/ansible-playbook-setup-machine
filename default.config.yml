@@ -42,7 +42,6 @@ extra_packages:
   - qcachegrind
   - hashicorp/tap/boundary
   - awscli
-  - tophat/bar/yvm
   - composer
   - terraform
   - serverless
