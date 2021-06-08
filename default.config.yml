@@ -59,6 +59,7 @@ extra_packages:
   - k9s
   - mercurial
   - kustomize
+  - siege
   
 extra_cask_packages:
   - docker
