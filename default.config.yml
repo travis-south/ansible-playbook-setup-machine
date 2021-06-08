@@ -101,5 +101,6 @@ extra_cask_packages:
   - obs
   - amethyst
   - openvpn-connect
+  - sequel-pro
 
 force_install: no
