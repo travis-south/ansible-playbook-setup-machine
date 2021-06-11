@@ -102,5 +102,6 @@ extra_cask_packages:
   - amethyst
   - openvpn-connect
   - sequel-pro
+  - balenaetcher
 
 force_install: no
