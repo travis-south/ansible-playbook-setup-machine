@@ -103,5 +103,6 @@ extra_cask_packages:
   - openvpn-connect
   - sequel-pro
   - balenaetcher
+  - firefox
 
 force_install: no
