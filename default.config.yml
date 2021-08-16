@@ -106,5 +106,6 @@ extra_cask_packages:
   - balenaetcher
   - firefox
   - blackhole-16ch
+  - sequel-ace
 
 force_install: no
