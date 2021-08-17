@@ -31,6 +31,9 @@ custom_scripts_repo_key: ~/.ssh/id_rsa
 
 post_provision_tasks:
   - tasks/other-packages.yml
+  - tasks/cmk.yml
+
+cmk_version: 6.1.0
 
 extra_packages:
   - htop
