@@ -32,6 +32,7 @@ custom_scripts_repo_key: ~/.ssh/id_rsa
 post_provision_tasks:
   - tasks/other-packages.yml
   - tasks/cmk.yml
+  - tasks/python-libs.yml
 
 cmk_version: 6.1.0
 
@@ -112,3 +113,7 @@ extra_cask_packages:
   - sequel-ace
 
 force_install: no
+
+python_libs:
+  - name: debops
+    version: 2.3.3
