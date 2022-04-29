@@ -84,7 +84,7 @@ extra_cask_packages:
   - ransomwhere
   - oversight
   - lockdown
-  - zoomus
+  - zoom
   - google-drive-file-stream
   - pgadmin4
   - vlc
