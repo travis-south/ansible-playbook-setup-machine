@@ -112,6 +112,7 @@ extra_cask_packages:
   - blackhole-16ch
   - sequel-ace
   - backblaze
+  - whatsapp
 
 force_install: no
 
