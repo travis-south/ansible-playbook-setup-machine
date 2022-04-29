@@ -4,3 +4,4 @@
     url: "https://github.com/apache/cloudstack-cloudmonkey/releases/download/{{ cmk_version }}/cmk.darwin.x86-64"
     dest: /usr/local/bin/cmk
     mode: '0777'
+  become: yes
