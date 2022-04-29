@@ -9,6 +9,11 @@
     path: /etc/ansible
     state: directory
   become: yes
+  
+- name: Check if /usr/local/etc/ansible exits
+  stat:
+    path: /usr/local/etc/ansible
+  register: register_name
 
 - name: Symlink /usr/local/etc/ansible to /etc/ansible.
   file:
@@ -16,3 +21,4 @@
     path: /usr/local/etc/ansible
     state: link
   become: yes
+  when: register_name.stat.exists
