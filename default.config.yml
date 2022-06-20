@@ -37,6 +37,7 @@ post_provision_tasks:
 cmk_version: 6.1.0
 
 extra_packages:
+  - openssl
   - htop
   - git
   - zsh-history-substring-search
