@@ -67,6 +67,7 @@ extra_packages:
   - siege
   - hashicorp/tap/packer
   - deno
+  - aws/tap/copilot-cli
   
 extra_cask_packages:
   - docker
