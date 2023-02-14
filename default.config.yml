@@ -68,6 +68,7 @@ extra_packages:
   - hashicorp/tap/packer
   - deno
   - aws/tap/copilot-cli
+  - go
   
 extra_cask_packages:
   - docker
