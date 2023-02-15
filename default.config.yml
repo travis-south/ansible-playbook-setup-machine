@@ -69,6 +69,7 @@ extra_packages:
   - deno
   - aws/tap/copilot-cli
   - go
+  - pyenv
   
 extra_cask_packages:
   - docker
