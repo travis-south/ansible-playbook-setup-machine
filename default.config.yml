@@ -119,6 +119,7 @@ extra_cask_packages:
   - sequel-ace
   - backblaze
   - whatsapp
+  - fanny
 
 force_install: no
 
