@@ -71,6 +71,7 @@ extra_packages:
   - go
   - pyenv
   - golangci-lint
+  - rust
   
 extra_cask_packages:
   - docker
