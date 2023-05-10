@@ -121,6 +121,7 @@ extra_cask_packages:
   - backblaze
   - whatsapp
   - fanny
+  - cloudflare-warp
 
 force_install: no
 
