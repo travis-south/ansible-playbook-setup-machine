@@ -122,6 +122,7 @@ extra_cask_packages:
   - whatsapp
   - fanny
   - cloudflare-warp
+  - microsoft-edge
 
 force_install: no
 
