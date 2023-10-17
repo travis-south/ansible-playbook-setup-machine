@@ -73,6 +73,7 @@ extra_packages:
   - golangci-lint
   - rust
   - plow
+  - pnpm
   
 extra_cask_packages:
   - docker
