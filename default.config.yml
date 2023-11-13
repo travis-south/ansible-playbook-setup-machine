@@ -43,7 +43,6 @@ extra_packages:
   - zsh-history-substring-search
   - kubectl
   - docker-compose
-  - python
   - qcachegrind
   - hashicorp/tap/boundary
   - awscli
