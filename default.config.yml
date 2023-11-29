@@ -74,6 +74,7 @@ extra_packages:
   - plow
   - pnpm
   - telnet
+  - imagemagick
   
 extra_cask_packages:
   - docker
