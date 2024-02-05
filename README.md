@@ -1,7 +1,10 @@
 # ansible-playbook-setup-machine
+
 Ansible playbook for setting up my machine. Inspired by [Geerlinguy's](https://github.com/geerlingguy/mac-dev-playbook)
 
 ## Usage
+
+1. Install Xcode from the App Store.
 1. Setup ssh-key on github.
 1. Clone this repo.
 1. Copy `default.config.yml` to `config.yml`
