@@ -6,6 +6,7 @@ Ansible playbook for setting up my machine. Inspired by [Geerlinguy's](https://g
 
 1. Install Xcode from the App Store.
 1. Setup ssh-key on github.
+1. Setup ssh-key on gitlab.
 1. Clone this repo.
 1. Copy `default.config.yml` to `config.yml`
 1. Adjust `config.yml` values accordingly.
