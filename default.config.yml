@@ -95,7 +95,7 @@ extra_cask_packages:
   - oversight
   - lockdown
   - zoom
-  - google-drive-file-stream
+  - google-drive
   - pgadmin4
   - vlc
   - postman
@@ -105,7 +105,6 @@ extra_cask_packages:
   - nordvpn
   - private-internet-access
   - onedrive
-  - google-drive-file-stream
   - messenger
   - telegram
   - signal
