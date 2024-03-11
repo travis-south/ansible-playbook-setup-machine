@@ -76,6 +76,7 @@ extra_packages:
   - telnet
   - imagemagick
   - pulumi
+  - gnupg
   
 extra_cask_packages:
   - docker
