@@ -63,10 +63,11 @@
         dest: ~/.oh-my-zsh/custom/
 
     - name: Install Powerline fonts
-      pip:
+      ansible.builtin.pip:
         name: powerline-status
         extra_args: --user
-        executable: pip3
+        virtualenv: "{{ ansible_env.HOME }}/venvs/debops_env"
+        virtualenv_site_packages: yes
 
     - name: Clone Powerline fonts
       git:

@@ -1,8 +1,9 @@
 ---
 - name: Install DebOps
-  pip: 
+  ansible.builtin.pip:
     name: "{{ item.name }}"
     version: "{{ item.version }}"
-    executable: pip3
+    virtualenv: "{{ ansible_env.HOME }}/venvs/debops_env"
+    virtualenv_site_packages: yes
   with_items: "{{ python_libs }}"
   become: no
