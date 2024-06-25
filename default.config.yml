@@ -78,6 +78,7 @@ extra_packages:
   - pulumi
   - gnupg
   - pipx
+  - b2-tools
   
 extra_cask_packages:
   - docker
